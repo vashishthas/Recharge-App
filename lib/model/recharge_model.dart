@@ -35,6 +35,11 @@ class RechargeModel {
         "status": status,
         "response": response.toJson(),
       };
+
+  @override
+  String toString() {
+    return 'RechargeModel(error: $error, message: $message, status: $status, response: $response)';
+  }
 }
 
 class Response {

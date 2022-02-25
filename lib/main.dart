@@ -2,8 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:pay_to_fast/login.dart';
-import 'package:pay_to_fast/shared/succes%20page.dart';
-
 import 'bottom_nav_class/history_page.dart';
 import 'bottom_nav_class/home_page.dart';
 import 'bottom_nav_class/profile_page.dart';
@@ -18,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SuccessPage(),
+      home: SpashScreen(),
     );
   }
 }
